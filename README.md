@@ -111,3 +111,29 @@ $$ \hat{y} = h([V_A,V_B]) $$
 ##### Contact and Further Information
     Rama Viswanatha G Ayyagari
     gouri.ayyagari@gmail.com
+
+### Installation
+#### Note: GPU is needed to run this project. Also Nvidia cuda needs to installed.Tested on windows 11 laptop with Nvidia GEFORCE RTX GPU.
+
+#### Install Nvidia cuda.`https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/`
+
+#### Identify nvidia cuda version.`nvcc --version`
+
+![cuda](images/cuda-version.png)
+
+#### Prepare pip command to install pytorch compatible with installed cuda version.
+
+#### Navigate to `https://pytorch.org/get-started/locally/`. In `START LOCALLY` select cuda version, OS, package type etc to get command to install.
+
+![pytorch](images/pytorch-cuda-installation.png)
+
+#### Test cuda availablity
+ 
+![cuda-check](images/cuda-check.png)
+
+#### Install Anaconda
+
+#### Create conda virtual environment. `conda create --name cuda_venv`
+#### Activate virtual envionment `conda activate cuda_venv`
+#### Install dependencies using previously generated command. i.e `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126`
+#### Run jupyter notebook. `jupyter notebook`
