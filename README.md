@@ -127,13 +127,12 @@ $$ \hat{y} = h([V_A,V_B]) $$
 
 ![pytorch](images/pytorch-cuda-installation.png)
 
-#### Test cuda availablity
- 
-![cuda-check](images/cuda-check.png)
-
 #### Install Anaconda
 
 #### Create conda virtual environment. `conda create --name cuda_venv`
 #### Activate virtual envionment `conda activate cuda_venv`
 #### Install dependencies using previously generated command. i.e `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126`
 #### Run jupyter notebook. `jupyter notebook`
+#### Test cuda availablity
+ 
+![cuda-check](images/cuda-check.png)
