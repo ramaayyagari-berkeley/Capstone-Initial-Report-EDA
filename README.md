@@ -105,9 +105,9 @@ $$ \hat{y} = h([V_A,V_B]) $$
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
-
+- [Natural Language Inference with attention and MLP](nli%20with%20attention%20and%20MLP.ipynb)
+- [Utlity functions library](nli.ipynb)
 
 ##### Contact and Further Information
+    Rama Viswanatha G Ayyagari
+    gouri.ayyagari@gmail.com
