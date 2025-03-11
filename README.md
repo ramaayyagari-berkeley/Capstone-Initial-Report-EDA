@@ -83,8 +83,11 @@ $$ \hat{y} = h([V_A,V_B]) $$
 ![Model Performance](images/results.png)
 
 #### Next steps
-1. Change the embedding, i.e from GloVe to other types of embedings like Word2Vec, Subword or BERT with the same Architecture to evaluvate performance.
-2. Error anlysis
+##### 1. Run with other embedding, i.e in addition to `GloVe` to other types of embedings like `Word2Vec`, `Subword` or `BERT` with the same Architecture and gather results for analysis.
+##### 2. Error anlysis
+    a. Number of wrong predictions of inference.
+    b. Identify number of wrong predictions of inference for each of `Entilement`, `Contradiction` and `Neutral`.
+##### 3. Compare the results of `GloVe` and other embedding with respect to errors, performance and efficency.
 
 #### Outline of project
 
