@@ -80,24 +80,7 @@ $$ \hat{y} = h([V_A,V_B]) $$
 ![Model Performance](images/Model-Performance.png)
 
 ##### Initial testing results
-    [{
-        'Premise:': 'A man is running the coding example.',
-        'Hypothesis:': 'The man is sleeping.',
-        'Expected Result': 'contradiction',
-        'Actual Result': 'contradiction'
-    },
-    {
-        'Premise:': 'I do need sleep.',
-        'Hypothesis:': 'I am tired',
-        'Expected Result': 'entilement',
-        'Actual Result': 'neutral'
-    },
-    {
-        'Premise:': 'The musicians are performing for us.',
-        'Hypothesis:': 'The musicians are famous.',
-        'Expected Result': 'neutral',
-        'Actual Result': 'neutral'
-    }]
+![Model Performance](images/results.png)
 
 #### Next steps
 1. Change the embedding, i.e from GloVe to other types of embedings like Word2Vec, Subword or BERT with the same Architecture to evaluvate performance.
